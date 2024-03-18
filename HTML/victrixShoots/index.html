@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+		<link rel="icon" href="../../images/favicon/victrixFavicon.jpg">
+		<link
+			rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="crossorigin="anonymous"referrerpolicy="no-referrer"
+		/>
+        <link rel="stylesheet" href="../../CSS/victrixShoots/style.css">
+		<script src="../../lib/data/data.js"></script>
+		<script src="../../js/victrixShoots/script.js" defer></script>
+    </head>
+    <body>
+        <header id="menuBackground">
+			<nav>
+				<div id="burgerDiv">
+					<i id="burgericon"class="fa-solid fa-bars"></i>
+					<ul>
+						<li class="burgerLi"><a class="burgerLink" href="../../index.html">Home</a></li>
+						<li class="burgerLi"><a class="burgerLink" href="../../HTML/victrix/index.html">Victrix</a></li>
+						<li class="burgerCurrentLi"><a class="menuLink" href="index.html">Victrix Shoots</a></li>
+						<li class="burgerLi"><a class="burgerLink" href="../../HTML/professional/index.html">Professional</a></li>
+						<li class="burgerLi"><a class="burgerLink" href="../../HTML/sporting/index.html">Sporting</a></li>
+						<li class="burgerLi"><a class="burgerLink" href="../../HTML/smallBore/index.html">Small Bore</a></li>
+					</ul>
+				</div>
+				<img class="menuSvg" src="../../images/victrixSvg/victrixSvg.svg" alt="svg">
+				<ul id="topMenu">
+					<li class="menuSections"><a class="menuLink" href="../../index.html">Home</a></li>
+					<li class="menuSections"><a class="menuLink" href="../../HTML/victrix/index.html">Victrix</a></li>
+					<li class="menuSections"><a class="currentSection" href="index.html">Victrix Shoots</a></li>
+					<li class="menuSections"><a class="menuLink" href="../../HTML/professional/index.html">Professional</a></li>
+					<li class="menuSections"><a class="menuLink" href="../../HTML/sporting/index.html">Sporting</a></li>
+					<li class="menuSections"><a class="menuLink" href="../../HTML/smallBore/index.html">Small Bore</a></li>
+				</ul>
+			</nav>
+			<div class="menuBtn">
+				<div id="victrixLogin">
+					<a href="HTML/logInPage/index.html">
+						<button 
+							class="logInBtn" role="button"><span class="text"> Log In </span><span>
+							<img class="buttonImg" src="../../images/victrixSvg/victrixSvg.svg" alt="victrix"></span>
+						</button>
+					</a>
+				</div>
+				<div id="victrixOficial">
+					<a id="aOficial" href="https://www.victrixarmaments.com/" target="blank">
+						<button 
+							class="oficialBtn" role="button">
+								<span class="text">
+									<i id="goToIcon" class="fa-solid fa-arrow-up-right-from-square"></i>Go to our oficial  
+								</span>
+								<span>
+									<img class="buttonImg" src="../../images/victrixSvg/victrixSvg.svg" alt="victrix">
+								</span>
+						</button>
+					</a>
+				</div>
+			</div>
+		</header>
+        <main>
+			<section class="shoots_info_section">
+				<h3 class="shoots_heading">VICTRIX SHOOTS</h3>
+				<p class="shoots_info">
+					A picture is worth more than a thousand words.<br/>
+					Show us with a photograph what Victrix Armaments represents for you.<br/>
+					Your photos will be published in our gallery below and on our official social channels.<br/>
+					What are you waiting for?<br/>
+					Load, target, breathe and…take your Victrix Armaments picture!
+				</p>
+				<a href="#add_your_post"><button class="shoots_btn">To participate,click here</button></a>
+				<p class="shoots_info">
+					Vote, share your photo on social media and try to get as many votes as possible!<br/>
+					Your photo could be the best Victrix Armaments photo of the year!
+				</p>
+				<button class="shoots_btn">To vote,click here</button>
+			</section>
+			<section class="sections_section">
+				<div class="sections_cont">
+					<div class="section" id="all_section">ALL</div>
+					<div class="section" id="your_victrix_section">YOUR VICTRIX</div>
+					<div class="section" id="victrix_on_the_road_section">VICTRIX ON THE ROAD</div>
+					<div class="section" id="military_enforcement_section">MILITARY AND LAW ENFORCEMENT</div>
+				</div>
+			</section>
+			<section>
+				<div class="content_section" id="content_cont_section">
+					<div id="content_cont">
+						
+					</div>
+				</div>
+			</section>
+			<section id="add_your_post">
+				<p id="load_more_p">Load more</p>
+				<h1 class="upload_header">UPLOAD YOUR PHOTO AND PARTICIPATE.</h1>
+				<p class="rules">GENERAL RULES</p>
+				<div class="form_wrapper">
+					<form id="post_form">
+						<input type="text" id="name_input" placeholder="NAME" required/>
+						<input type="text" id="surname_input" placeholder="SURNAME" required/>
+						<div class="area-tel_inputs_container">
+							<div class="tel_input_wrapper">
+								<input type="number" id="area_input" placeholder= "AREA CODE" required/>
+								<input type="tel" id="tel_input" placeholder="TEL" required/>
+							</div>
+							<input type="email" id="email_input" placeholder="EMAIL" required/>
+						</div>
+						<div class="title_wrapper">
+							<input type="text" id="title_input" placeholder="PHOTO TITLE" required/>
+							<select name="section_selector" id="section_selector" required>
+								<option value="" disabled selected>Select section</option>
+								<option value="all_victrix_posts">All</option>
+								<option value="your_victrix">Your victrix</option>
+								<option value="victrix_on_road">Victrix on the road</option>
+								<option value="military_enforcement">Military and law enforcement</option>
+							</select>
+						</div>
+						<div class="check_box_container">
+							<div class="file_choose_container">
+								<p class="file_max_weight">Max 2mb </p>
+								<input type="file" id="file_input" placeholder="select file" name ="file_input" accept="image/*" required/>
+							</div> 
+							<div class="checkbox_wrapper">
+								<input type="checkbox" id="privacy_check" name="privacy" value="privacy" required>
+								<label for="privacy_check">I accept terms and conditions (read <span class="privacy_span">privacy policy</span>)</label><br>
+							</div>
+							<div class="checkbox_wrapper">
+								<input type="checkbox" id="rules_check" name="rules" value="rules" required>
+								<label for="rules_check">I accept the <span class="rules_span">general rules</span></label><br>
+							</div>
+							<div class="checkbox_wrapper">
+								<input type="checkbox" id="author_check" name="author" value="author" required>
+								<label for="author_check">I declare to be the author of the photo 
+									I'm uploading and to have all the necessary authorizations 
+									for the publication on the Victrix Armaments communication 
+									channels
+								</label>
+							</div>
+						</div>
+						<div class="send_btn_wrapper">
+							<button id="send_btn">SEND</button>
+						</div>
+					</form>
+				</div>
+			</section>
+			<footer>
+				<img
+					class="footerLogo"
+					src="../../images/victrixSvg/victrixSvg.svg"
+					alt="logo"
+				/>
+				<a class="aPrivacy" href="https://www.victrixarmaments.com/privacy-policy/" target="blank">
+					<i id="goToIcon" class="fa-solid fa-arrow-up-right-from-square"></i>Privacy Policy - Cookies Policy
+				</a>
+				<div class="divLine"></div>
+				<p class="privacyP">
+					Rottigni Officina MEccanica Srl<br/>
+					via Mazzini, 38/A - 24026<br/>
+					Cazzano S.Andrea (BG) - Italia<br/>
+					Capitale sociale: € 312.500 deliberato, sottoscritto e versato<br/>
+					C.F. e P.IVA: 01626370165<br/>
+					Iscrizione REA: BG-223841<br/>
+				</p>
+				<div class="divLine2"></div>
+				<div class="footerInfo">
+					<div class="socialLinks">
+						<div class="socialBackground">
+						<a href="https://www.facebook.com/victrixarmamentsitaly/photos" target="blank" class="facebookLink">
+							<i id="facebookImg" class="fa-brands fa-facebook-f"></i>
+						</a>
+					</div>
+	
+					<div class="socialBackground">
+						<a href="https://www.instagram.com/victrix_armaments/" target="blank" class="instagramLink">
+							<i id="instaImg" class="fa-brands fa-instagram"></i>
+						</a>
+					</div>
+					<p class="author">
+						Web Development by Eduard Margaryan
+					</p>
+				</div>
+			</footer>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+		<link
+			rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="crossorigin="anonymous"referrerpolicy="no-referrer"
+		/>
+		<title>Victrix Armaments</title>
+		<link rel="icon" href="images/favicon/victrixFavicon.jpg">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	</head>
+	<body>
+		<header id="menuBackground">
+			<nav>
+				<div id="burgerDiv">
+					<i id="burgericon"class="fa-solid fa-bars"></i>
+					<ul>
+						<li class="burgerCurrentLi"><a class="burgerLink" href="index.html">Home</a></li>
+						<li class="burgerLi"><a class="burgerLink" href="HTML/victrix/index.html">Victrix</a></li>
+						<li class="burgerLi"><a class="burgerLink" href="HTML/victrixShoots/index.html">Victrix Shoots</a></li>
+						<li class="burgerLi"><a class="burgerLink" href="HTML/professional/index.html">Professional</a></li>
+						<li class="burgerLi"><a class="burgerLink" href="HTML/sporting/index.html">Sporting</a></li>
+						<li class="burgerLi"><a class="burgerLink" href="HTML/smallBore/index.html">Small Bore</a></li>
+					</ul>
+				</div>
+				<img class="menuSvg" src="images/victrixSvg/victrixSvg.svg" alt="svg">
+				<ul id="topMenu">
+					<li class="menuSections"><a class="currentSection" href="index.html">Home</a></li>
+					<li class="menuSections"><a class="menuLink" href="HTML/victrix/index.html">Victrix</a></li>
+					<li class="menuSections"><a class="menuLink" href="HTML/victrixShoots/index.html">Victrix Shoots</a></li>
+					<li class="menuSections"><a class="menuLink" href="HTML/professional/index.html">Professional</a></li>
+					<li class="menuSections"><a class="menuLink" href="HTML/sporting/index.html">Sporting</a></li>
+					<li class="menuSections"><a class="menuLink" href="HTML/smallBore/index.html">Small Bore</a></li>
+				</ul>
+			</nav>
+			<div class="menuBtn">
+				<div id="victrixLogin">
+					<a href="HTML/logInPage/index.html">
+						<button 
+							class="logInBtn" role="button"><span class="text"> Log In </span><span>
+							<img class="buttonImg" src="images/victrixSvg/victrixSvg.svg" alt="victrix"></span>
+						</button>
+					</a>
+				</div>
+				<div id="victrixOficial">
+					<a id="aOficial" href="https://www.victrixarmaments.com/" target="blank">
+						<button 
+							class="oficialBtn" role="button">
+								<span class="text">
+									<i id="goToIcon" class="fa-solid fa-arrow-up-right-from-square"></i>Go to our oficial  
+								</span>
+								<span>
+									<img class="buttonImg" src="images/victrixSvg/victrixSvg.svg" alt="victrix">
+								</span>
+						</button>
+					</a>
+				</div>
+			</div>
+		</header>
+
+		<section id="videoMainSection">
+			<div class="containerSlider">
+				<div class="wrapper">
+					<div class="imgSlider" id="img_main_1">
+						<img class="imgMain" src="images/Home/mainSliderImages/venus-v.jpg" alt="scepter">
+						<h1 class= "slider_img_heading">VICTRIX SCEPTER V</h1>
+						<p class= "slider_img_info">
+							HAVE A SIT ON THE THRONE,WEAR YOUR CROWN.THE SCEPTER YOU WERE LOOKING FOR IS HERE.
+						</p>
+						<a class = "discover_btn_a" href="HTML/sporting-section/scepter/index.html"><div class="discover_btn">DISCOVER MORE</div></a>
+					</div>
+					<div class="imgSlider" id="img_main_2">
+						<img class="imgMain" src="images/Home/mainSliderImages/victrix-shoots.jpg" alt="scorpio">
+						<h1 class= "slider_img_heading">VICTRIX SHOOTS</h1>
+						<p class= "slider_img_about">
+							Load, target, breathe and…take your Victrix<br/> 
+							Armaments photograph!<br/> 
+						</p>
+						<p class= "slider_img_info">
+							Show us whith a photo what Victrix Armaments represents for you
+						</p>
+						<a class = "discover_btn_a" href="HTML/victrixShoots/index.html"><div class="discover_btn">DISCOVER MORE</div></a>
+					</div>
+					<div class="imgSlider" id="img_main_3">
+						<img class="imgMain" src="images/Home/mainSliderImages/victrix-corvo.jpg" alt="venus">
+						<h1 class= "slider_img_heading">VICTRIX CORVO</h1>
+						<p class= "slider_img_info">
+							A SNIPER RIFLE,IN .50 BMG
+						</p>
+						<a class = "discover_btn_a" href="HTML/professional-section/corvo/index.html"><div class="discover_btn">DISCOVER MORE</div></a>
+					</div>
+					<div class="imgSlider" id="img_main_4">
+						<img class="imgMain" src="images/Home/mainSliderImages/imgVenus.jpg" alt="throne">
+						<h1 class= "slider_img_heading">VICTRIX VENUS</h1>
+						<p class= "slider_img_info">
+							THE TOOL OF THE TRADE.
+						</p>
+						<a class = "discover_btn_a" href="HTML/sporting-section/venus/index.html"><div class="discover_btn">DISCOVER MORE</div></a>
+					</div>
+					<div class="imgSlider" id="img_main_5">
+						<div id= "volume_icon_div">
+							<i class='fa-solid fa-volume-xmark fa-xl' class="volume_icon"></i>
+						</div>
+						<video autoplay muted loop class="videoMain">
+							<source src="videos/victrix video.mp4" type=video/mp4>
+						</video>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="navArrows">
+			<div class="leftArrow" id="main_slider_left_arrow">
+				<i class="fa-solid fa-arrow-left"></i>
+			</div>
+
+			<div class="point1"></div>
+
+			<div class="point2"></div>
+
+			<div class="point3"></div>
+
+			<div class="point4"></div>
+
+			<div class="point5"></div>
+
+			<div class="rightArrow" id="main_slider_right_arrow">
+				<i class="fa-solid fa-arrow-right"></i>
+			</div>
+		</div>
+		<div class="sectionInfo">
+			<h1>PROFESSIONAL</h1>
+			<a href="https://www.victrixarmaments.com/professional/" target="blank">
+				<i id="arrowLink" class="fa-solid fa-arrow-right"></i>
+			</a>
+			<p>
+				Our line designed for professional operators<br />
+				guarantees absolute safety and reliability at all times.<br />
+				Password? No recoil.<br />
+			</p>
+		</div>
+
+		<section id="professionalSection">
+			<div class="proContainerSlider">
+				<div class="proWrapper">
+					<div class="proImgDiv">
+						<a href="HTML/professional-section/tormento/index.html"><p class="proimgName">TORMENTO</p></a>
+						<img
+							class="proImg"
+							src="images/profImages/tormento/imgTormento.jpg"
+							alt="tormento"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/professional-section/gladio/index.html"><p class="proimgName">GLADIO</p></a>
+						<img
+							class="proImg"
+							src="images/profImages/gladio/imgGladio.jpg"
+							alt="gladius"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/professional-section/scorpio/index.html"><p class="proimgName">SCORPIO</p></a>
+						<img
+							class="proImg"
+							src="images/profImages/scorpio/imgScorpio.jpg"
+							alt="scorpio"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/professional-section/pugio/index.html"><p class="proimgName">PUGIO</p></a>
+						<img
+							class="proImg"
+							src="images/profImages/pugio/imgPugio.jpg"
+							alt="pugio"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/professional-section/corvo/index.html"><p class="proimgName">CORVO</p></a>
+						<img
+							class="proImg"
+							src="images/profImages/corvo/imgCorvo.jpg"
+							alt="corvo"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/professional-section/throne/index.html"><p class="proimgName">THRONE</p></a>
+						<img
+							class="proImg"
+							src="images/profImages/throne/imgThrone.jpg"
+							alt="throne"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/professional-section/absolute/index.html"><p class="proimgName">ABSOLUT V</p></a>
+						<img
+							class="proImg"
+							src="images/profImages/absolute/imgAbsolute.jpg"
+							alt="absolute"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/professional-section/scorpioV/index.html"><p class="proimgName">SCORPIO V</p></a>
+						<img
+							class="proImg"
+							src="images/profImages/scorpioV/imgScorpioV.jpg"
+							alt="scorpioV"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/professional-section/scorpioTCT/index.html"><p class="proimgName">SCORPIO TCT</p></a>
+						<img
+							class="proImg"
+							src="images/profImages/scorpioTCT/imgScorpioTCT.jpg"
+							alt="scorpio"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="proNavArrows">
+			<div class="proLeftArrow">
+				<i class="fa-solid fa-arrow-left"></i>
+			</div>
+
+			<div class="proPoint1"></div>
+
+			<div class="proPoint2"></div>
+
+			<div class="proPoint3"></div>
+
+			<div class="proAnimationPoint"></div>
+
+			<div class="proRightArrow">
+				<i class="fa-solid fa-arrow-right"></i>
+			</div>
+		</div>
+
+		<div class="sectionInfo">
+			<h1>SPORTING</h1>
+			<a href="https://www.victrixarmaments.com/sporting/" target="blank">
+				<i id="arrowLink" class="fa-solid fa-arrow-right"></i>
+			</a>
+			<p>
+				Choose from our systems designed for sport shooting.<br />
+				From the F-class to the extreme long range: find the ideal companion for
+				your hunger for success.<br />
+			</p>
+		</div>
+		
+		<section id="professionalSection">
+			<div class="sportingContainerSlider">
+				<div class="sportingWrapper">
+					<div class="proImgDiv">
+						<a href="HTML/sporting-section/scepter/index.html"><p class="proimgName">SCEPTER</p></a>
+						<img
+							class="proImg"
+							src="images/sportingImages/scepter/imgScepter.jpg"
+							alt="scepter"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/sporting-section/venusPro/index.html"><p class="proimgName">VENUS PRO</p></a>
+						<img
+							class="proImg"
+							src="images/sportingImages/venusPro/imgVenusPro.jpg"
+							alt="venus pro"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/sporting-section/venus/index.html"><p class="proimgName">VENUS</p></a>
+						<img
+							class="proImg"
+							src="images/sportingImages/venus/imgVenus.jpg"
+							alt="venus"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/sporting-section/target/index.html"><p class="proimgName">TARGET</p></a>
+						<img
+							class="proImg"
+							src="images/sportingImages/target/imgTarget.jpg"
+							alt="target"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/sporting-section/absolute/index.html"><p class="proimgName">ABSOLUTE</p></a>
+						<img
+							class="proImg"
+							src="images/sportingImages/absolute/imgAbsolute.jpg"
+							alt="absolute"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/sporting-section/performance/index.html"><p class="proimgName">PERFORMANCE</p></a>
+						<img
+							class="proImg"
+							src="images/sportingImages/performance/imgPerformance.jpg"
+							alt="performance"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/sporting-section/challenge/index.html"><p class="proimgName">CHALLENGE</p></a>
+						<img
+							class="proImg"
+							src="images/sportingImages/challenge/imgChallenge.jpg"
+							alt="challenge"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/sporting-section/crown/index.html"><p class="proimgName">CROWN</p></a>
+						<img
+							class="proImg"
+							src="images/sportingImages/crown/imgCrown.jpg"
+							alt="crown"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/sporting-section/throne/index.html"><p class="proimgName">Throne</p></a>
+						<img
+							class="proImg"
+							src="images/sportingImages/throne/imgThrone.jpg"
+							alt="throne"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="sportNavArrows">
+			<div class="sportLeftArrow">
+				<i class="fa-solid fa-arrow-left"></i>
+			</div>
+
+			<div class="sportPoint1"></div>
+
+			<div class="sportPoint2"></div>
+
+			<div class="sportPoint3"></div>
+
+			<div class="sportAnimationPoint"></div>
+
+			<div class="sportRightArrow">
+				<i class="fa-solid fa-arrow-right"></i>
+			</div>
+		</div>
+
+		<div class="sectionInfo">
+			<h1>
+				SMALL BORE
+			</h1>
+			<p>
+				Precision shooting will never be the same with our firearm systems chambered in .22 LR.<br/>
+				We have just reduced the caliber. Precision and reliability stay at the maximum level.<br/>
+			</p>
+			<div class="smallBoreBtnCont">
+				<div class="btnWrapper">
+					<a href="HTML/repeater/index.html"><div class="smallBoreBtnContent">REPEATER</div></a>
+				</div>
+				<div class="btnWrapper">
+					<a href="HTML/singleShot/index.html"><div class="smallBoreBtnContent">SINGLE-SHOT</div></a>
+				</div>
+			</div>
+		</div>
+
+		<section id="smallBoreSection">
+			<div class="smallBoreContainer">
+				<div class="smallBoreWrapper">
+					<div class="proImgDiv">
+						<a href="HTML/smallBore-section/venusSmallBore/index.html"><p class="proimgName">Venus Small Bore</p></a>
+						<img
+							class="proImg"
+							src="images/smallBoreImages/venusS/imgVenusSmallBore.jpg"
+							alt="VenusSmallBore"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/smallBore-section/venusProSmallBore/index.html"><p class="proimgName">Venus Pro Small Bore</p></a>
+						<img
+							class="proImg"
+							src="images/smallBoreImages/venusProS/imgVenusProSmallBore.jpg"
+							alt="VenusProSmallBore"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/smallBore-section/gladioSmallBore/index.html"><p class="proimgName">Gladio Small Bore</p></a>
+						<img
+							class="proImg"
+							src="images/smallBoreImages/gladioS/imgGladioSmallBore.jpg"
+							alt="GladioSmallBore"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="sectionInfo">
+			<h1>VICTRIX ACCESSORIES</h1>
+			<p>
+				Every and each component of our Victrix Armaments rifles is designed and manufactured behind the doors of our company. Precision is <br/> 
+				a belief, not a style.
+			</p>
+			<a href="https://www.victrixarmaments.com/en/victrix-accessories/" target="blank">
+				<i id="arrowLink" class="fa-solid fa-arrow-right"></i>
+			</a>
+		</div>
+		<section id="professionalSection">
+			<div class="sportingContainerSlider">
+				<div class="triggerWrapper">
+					<div class="proImgDiv">
+						<a href="HTML/accessories/triggers/index.html"><p class="proimgName">Victrix Triggers</p></a>
+						<img
+							class="proImg"
+							src="images/Home/accessoriesImagies/triggers/imgTriggers.jpg"
+							alt="triggers"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/accessories/chassis/index.html"><p class="proimgName">Victrix Chassis System</p></a>
+						<img
+							class="proImg"
+							src="images/Home/accessoriesImagies/chassis/imgChassis.jpg"
+							alt="chassis"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/accessories/muzzleBrakes/index.html"><p class="proimgName">Victrix Muzzle Brakes</p></a>
+						<img
+							class="proImg"
+							src="images/Home/accessoriesImagies/brakes/imgMuzzleBrakes.jpg"
+							alt="brakes"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/accessories/buttstocks/index.html"><p class="proimgName">Victrix Buttstock</p></a>
+						<img
+							class="proImg"
+							src="images/Home/accessoriesImagies/buttstock/imgButtstocks.jpeg"
+							alt="stock"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/accessories/magazines/index.html"><p class="proimgName">Victrix Magazines</p></a>
+						<img
+							class="proImg"
+							src="images/Home/accessoriesImagies/magazines/imgMagazines.jpeg"
+							alt="magazines"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/accessories/merchandising/index.html"><p class="proimgName">Victrix Merchandising</p></a>
+						<img
+							class="proImg"
+							src="images/Home/accessoriesImagies/merch/imgMerch.jpg"
+							alt="merch"
+						/>
+					</div>
+
+					<div class="proImgDiv">
+						<a href="HTML/accessories/cases/index.html"><p class="proimgName">Victrix Cases</p></a>
+						<img
+							class="proImg"
+							src="images/Home/accessoriesImagies/cases/imgCases.jpg"
+							alt="cases"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="sportNavArrows">
+			<div class="sportLeftArrow">
+				<i class="fa-solid fa-arrow-left"></i>
+			</div>
+
+			<div class="sportPoint1"></div>
+
+			<div class="sportPoint2"></div>
+
+			<div class="sportPoint3"></div>
+
+			<div class="triggerAnimationPoint"></div>
+
+			<div class="sportRightArrow">
+				<i class="fa-solid fa-arrow-right"></i>
+			</div>
+		</div>
+		
+		<div class="finalSectionInfo">
+			<img class="enterImg" src="images/Home/Optic/imgOptic.jpg" alt="finalImg">
+			<h1>
+				WE ARE CREATORS.
+			</h1>
+			<p>
+				Designers, manufacturers, perfectionists and enhancers.<br/>
+				In one-word, creators. That’s the formula we have chosen to talk about us, the one that conveys at best what we can do.
+			</p>
+			<div class="enterBtnCont">
+				<div class="enterBtnWrapper">
+					<div class="enterBtnContent"><a href="HTML/victrix/index.html">ENTER</a></div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<img
+				class="footerLogo"
+				src="images/victrixSvg/victrixSvg.svg"
+				alt="logo"
+			/>
+			<a class="aPrivacy" href="https://www.victrixarmaments.com/privacy-policy/" target="blank">
+				<i id="goToIcon" class="fa-solid fa-arrow-up-right-from-square"></i>Privacy Policy - Cookies Policy
+			</a>
+			<div class="divLine"></div>
+			<p class="privacyP">
+				Rottigni Officina MEccanica Srl<br/>
+				via Mazzini, 38/A - 24026<br/>
+				Cazzano S.Andrea (BG) - Italia<br/>
+				Capitale sociale: € 312.500 deliberato, sottoscritto e versato<br/>
+				C.F. e P.IVA: 01626370165<br/>
+				Iscrizione REA: BG-223841<br/>
+			</p>
+			<div class="divLine2"></div>
+			<div class="footerInfo">
+				<div class="socialLinks">
+					<div class="socialBackground">
+					<a href="https://www.facebook.com/victrixarmamentsitaly/photos" target="blank" class="facebookLink">
+						<i id="facebookImg" class="fa-brands fa-facebook-f"></i>
+					</a>
+				</div>
+
+				<div class="socialBackground">
+					<a href="https://www.instagram.com/victrix_armaments/" target="blank" class="instagramLink">
+						<i id="instaImg" class="fa-brands fa-instagram"></i>
+					</a>
+				</div>
+				<p class="author">
+					Web Development by Eduard Margaryan
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
